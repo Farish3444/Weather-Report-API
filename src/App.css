@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  
+}
+
+
+
+body{
+  /* background-image: url(''); */
+  background-color: lightcyan;
+}
+
+table{
+  align-items: center;
+  color: red;
+}
