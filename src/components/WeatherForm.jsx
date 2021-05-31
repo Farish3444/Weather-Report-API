@@ -43,7 +43,7 @@ function WeatherForm() {
 
 
     return (
-        <React.Fragment>
+        <React.Fragment className="whole">
         <div className='form'>
         <form onSubmit={onSubs}>
             <input 
