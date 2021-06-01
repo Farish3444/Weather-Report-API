@@ -19,7 +19,7 @@ function DisplayData(props) {
             <span className="cardsubtitle">
                  As a {new Date().toLocaleTimeString()}
             </span>
-            <h1> Temperature - {data.main.temp}</h1>
+            <h1> Temperature {data.main.temp}</h1>
           
             <img className="weather-icon" src={iconurl}/>
             <span>{data.weather[0].description}</span> 
